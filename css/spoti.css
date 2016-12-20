@@ -1,0 +1,140 @@
+
+html {
+  background: url('../img/headphone.jpg') no-repeat center center fixed;
+  
+  background-size: cover;
+
+}
+
+body {
+	
+	background-color: white;
+	font-family: 'Karla', sans-serif;
+	margin-top: -23px;
+	padding: 2rem;
+	text-align: center;
+
+}
+
+
+h1 {
+    color:#0de47e;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	letter-spacing: 0.6rem;
+	margin-top:2rem;
+}
+
+
+
+#search-term   {
+	text-align: center;
+	margin: 1em 5rem;
+}
+
+
+
+#search-results img {
+
+    margin-top: 2rem;
+    max-width:20%;
+	height: 7rem;
+	margin-left: 2rem;
+    margin-bottom: 1rem;
+    background:#0de47e;
+    padding:2rem;
+	border:none
+
+
+}
+
+
+
+
+#search-results  {
+	display: block;
+	width: 100%;
+}
+
+
+input[type="text"] {
+	width: 30%;
+	font-family: 'Karla', sans-serif;
+	font-size: 1rem;
+	height: 1.5rem;
+	border-radius: 3px;
+	padding: 10px;
+  	border: solid 2px #0de47e;
+  	
+}
+
+
+input[type="submit"] {
+	font-family: 'Karla', sans-serif;
+	letter-spacing: 0.3rem;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: white;
+	margin-left: 1rem;
+	padding: 1rem 1rem 1rem;
+  	background-color: #0de47e;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+
+.last {
+	text-align: 
+	position: absolute;
+    top:35rem;
+    margin-left: -3rem;
+    font-size: 10px;
+    
+}
+
+
+
+
+@media only screen and ( min-width: 300px) and (max-width: 700px){
+
+input[type="text"] {
+	width: 70%;
+}
+
+
+input[type="submit"] {
+     margin: 1rem;
+}
+
+
+#search-term   {
+	text-align: center;
+	margin: 2em 1rem;
+
+}
+
+
+#search-results img {
+
+    max-width:50%;
+	height: 10rem;
+	margin-right:0px 2em;
+    margin-bottom: 2rem;
+ 
+
+}
+
+.last {
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+
+
+
+}
